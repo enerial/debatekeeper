@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<debate-format schema-version="2.1">
+  <name>Primary Schools</name>
+  <info>
+    <region>Primary</region>
+    <level>School</level>
+    <used-at>Primary School Debates</used-at>
+    <description>3 vs 3, 4-minute speeches, 2-minute replies, POIs allowed</description>
+  </info>
+  <prep-time length="60:00"/>
+  <speech-types>
+    <speech-type ref="substantive" length="4:00" first-period="normal">
+      <bell time="0:30" number="1" next-period="pois-allowed"/>
+      <bell time="3:30" number="1" next-period="warning"/>
+      <bell time="finish" number="2" next-period="overtime"/>
+    </speech-type>
+    <speech-type ref="reply" length="2:00" first-period="normal">
+      <bell time="finish" number="2" next-period="overtime"/>
+    </speech-type>
+  </speech-types>
+  <speeches>
+    <speech type="substantive">
+      <name>1st Proposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>1st Opposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>2nd Proposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>2nd Opposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>3rd Proposition</name>
+    </speech>
+    <speech type="substantive">
+      <name>3rd Opposition</name>
+    </speech>
+    <speech type="reply">
+      <name>Opposition Reply</name>
+    </speech>
+    <speech type="reply">
+      <name>Proposition Reply</name>
+    </speech>
+  </speeches>
+</debate-format>
